@@ -26,7 +26,6 @@ Visual design is handled by bootstrap, while object interactions takes advantage
 Hidden input fields are used to submit the task in a string of text, JSON formatted, containing x and y coordinates for each timestep. The [Effect SDK](https://developer.effect.network/) is used to interact with [TEN](https://effect.network/download/effect_whitepaper.pdf).
 
 #### Summary
-Describe the basic functionality of your project. What are the features you were able to implement? What features would you like to implement?
 The effect workforce would use our AI-based eyetracking program to collect and synthesize data from campaigns and present customers (websites, adTech, app devs) with actionable insights that will guide their design efforts towards fruition. This provides an opportunity to tap into the 41.8 bn USD (just U.S) web design services market and contribute to the web dev and digital design job market already at a 13% growth rate.
 
 #### URLs

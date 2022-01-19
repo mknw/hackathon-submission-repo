@@ -16,16 +16,11 @@
 	<script src="https://cdn.jsdelivr.net/gh/mknw/hackathon-submission-repo@eyefx-submission-a6c9803fff9da13cc9a548ae63d351d3/EYEFX/codebase/cmp/js/calibration.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/mknw/hackathon-submission-repo@eyefx-submission-a6c9803fff9da13cc9a548ae63d351d3/EYEFX/codebase/cmp/js/main.js"></script>
 </head>
-
-<body lang='en-us' link="#0000ff" dir='ltr'>
+<body lang='en-us' link="#0000ff" dir='ltr' style="min-height: 950px">
 	<!-- Shows face within optimal detection window. -->
-	<canvas id="plotting_canvas" width="500" height="500" style="cursor:crosshair;"></canvas>
+	<canvas id="plotting_canvas" width="100%" height="100%" style="cursor:crosshair;"></canvas>
 	
-		<script src="./node_modules/sweetalert/dist/sweetalert.min.js"></script>
-		<script src="./js/precision_calculation.js"></script>
-		<script src="./js/precision_store_points.js"></script>
-		
-		<!-- script src="./js/website_display.js"></script-->
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
 
 		<nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
 			<a class="navbar-header" href="#">EYEFX</a>
@@ -46,7 +41,7 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" onclick="RestartCalibration()" href="#">Recalibrate</a>
-							<a class="dropdown-item" onclick="webgazer.applyKalmanFilter(!webgazer.params.applyKalmanFilter)" href="#">Toggle Kalman Filter</a>
+							<!-- a class="dropdown-item" onclick="webgazer.applyKalmanFilter(!webgazer.params.applyKalmanFilter)" href="#">Toggle Kalman Filter</a-->
 							<a class="dropdown-item" onclick="webgazer.showFaceOverlay(!webgazer.params.showFaceOverlay)" href="#">Toggle Face Overlay</a>
 							<a class="dropdown-item" onclick="webgazer.showVideo(!webgazer.params.showVideo)" href="#">Toggle Video</a>
 							<a class="dropdown-item" onclick="webgazer.showFaceFeedbackBox(!webgazer.params.showFaceFeedbackBox)" href="#">Toggle Feedback Box</a>
@@ -115,7 +110,7 @@
 		</div>
 	</div>
 
-	<!--these last-->
+	<!--compile these last-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/gh/mknw/hackathon-submission-repo@eyefx-submission-a6c9803fff9da13cc9a548ae63d351d3/EYEFX/codebase/cmp/js/resize_canvas.js"></script>
 

@@ -27,11 +27,6 @@ $(document).ready(function(){
 		console.error(error)
 	}
 	connectWallet()
-
-	// ForwardCampaign();
-	// prompt wallet link
-	// RepeatCardNTimes(3);
-
 });
 
 
@@ -117,7 +112,7 @@ function connectWallet() {
 	let accountID;
 	Swal.fire({
 		title: 'Select your preferred wallet',
-		text: 'Or test this campaign with a burner wallet',
+		// text: 'Or test this campaign with a burner wallet',
 		showDenyButton: true,
 		showCancelButton: false,
 		focusConfirm: false,
